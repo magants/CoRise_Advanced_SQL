@@ -48,7 +48,7 @@ where
         (lower(customer_state) = 'ky' and lower(trim(customer_city)) in ('concord','georgetown','ashland'))
      or (lower(customer_state) = 'ca' and lower(trim(customer_city)) in ('oakland','pleasant hill'))
      or (lower(customer_state) = 'tx' and lower(trim(customer_city)) in ('arlington','brownsville')) 
-     -- added brownsville to 'tx' condition above. think original query had mistake after data showed many browsvilles that didn't return in original result set.
+     -- added brownsville to 'tx' condition above. think original query had mistake after data showed many brownsvilles that didn't return in original result set.
 )
             
 select * from final
