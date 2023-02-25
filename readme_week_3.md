@@ -1,4 +1,5 @@
 --ALTER SESSION SET USE_CACHED_RESULT = FALSE;
+
 --most viewed recipes by day using qualify row_number() to break view ties on same day
 
 with events as (
